@@ -1,1 +1,26 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Price Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cryptocurrency Price Tracker</h1>
+    <div id="crypto-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price (USD)</th>
+                    <th>Market Cap</th>
+                    <th>24h Change</th>
+                </tr>
+            </thead>
+            <tbody id="crypto-data"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
